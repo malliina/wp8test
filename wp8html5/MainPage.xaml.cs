@@ -14,6 +14,7 @@ namespace wp8html5
     {
         // Url of Home page
         private string MainUri = "/Html/index.html";
+        private string Page2Uri = "/Html/page2.html";
 
         // Constructor
         public MainPage()
@@ -43,7 +44,8 @@ namespace wp8html5
         // Navigates to the initial "home" page.
         private void HomeMenuItem_Click(object sender, EventArgs e)
         {
-            Browser.Navigate(new Uri(MainUri, UriKind.Relative));
+            //Browser.Navigate(new Uri(MainUri, UriKind.Relative));
+            Browser.Navigate(new Uri(Page2Uri, UriKind.Relative));
         }
 
         // Handle navigation failures.

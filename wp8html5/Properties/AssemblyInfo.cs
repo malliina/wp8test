@@ -6,11 +6,11 @@ using System.Resources;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("wp8html5")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("WP8 by Mle")]
+[assembly: AssemblyDescription("WP8 Test Application")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("wp8html5")]
+[assembly: AssemblyCompany("Mle Solutions")]
+[assembly: AssemblyProduct("wp8html5product")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

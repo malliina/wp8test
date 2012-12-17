@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{72e54d51-09c6-4999-ab25-52f7efc3d5ac}" Title="wp8html5" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Michael Skogberg" Description="Sample description" Publisher="wp8html5" PublisherID="{b3aa57e5-f496-4dd7-abaf-37c893ae5422}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+  <App xmlns="" ProductID="{72e54d51-09c6-4999-ab25-52f7efc3d5ac}" Title="WP8 by Mle" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Michael Skogberg" Description="Sample description" Publisher="wp8html5" PublisherID="{b3aa57e5-f496-4dd7-abaf-37c893ae5422}">
+    <IconPath IsRelative="true" IsResource="false">Assets\me.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -19,7 +19,7 @@
           <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
           <Count>0</Count>
           <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>wp8html5</Title>
+          <Title>WP8 by Mle</Title>
           <BackContent>
           </BackContent>
           <BackBackgroundImageURI>
