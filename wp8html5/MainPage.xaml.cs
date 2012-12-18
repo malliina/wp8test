@@ -26,7 +26,8 @@ namespace wp8html5
         {
             // Add your URL here
             Browser.Navigate(new Uri(MainUri, UriKind.Relative));
-            Browser.IsScriptEnabled = true;
+            // Set in XAML
+            // Browser.IsScriptEnabled = true;
         }
 
         // Navigates back in the web browser's navigation stack, not the applications.
@@ -52,6 +53,11 @@ namespace wp8html5
         private void Browser_NavigationFailed(object sender, System.Windows.Navigation.NavigationFailedEventArgs e)
         {
             MessageBox.Show("Navigation to this page failed, check your internet connection");
+        }
+
+        private void ChangeParagraph(object sender, NotifyEventArgs e)
+        {
+            Browser.InvokeScript("setParagraph");
         }
     }
 }
